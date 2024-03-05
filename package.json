@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-website-shiki-preprod-git",
+  "version": "1.0.0",
+  "description": "***",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./css/output.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./css/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShikiNoTsuna/portfolio-website-shiki.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShikiNoTsuna/portfolio-website-shiki/issues"
+  },
+  "homepage": "https://github.com/ShikiNoTsuna/portfolio-website-shiki#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
