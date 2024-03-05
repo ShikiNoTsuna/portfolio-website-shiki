@@ -608,9 +608,24 @@ video {
   background-color: rgb(40 40 40 / var(--tw-bg-opacity));
 }
 
+.bg-brightRed {
+  --tw-bg-opacity: 1;
+  background-color: rgb(232 75 96 / var(--tw-bg-opacity));
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .py-6 {
@@ -631,6 +646,10 @@ video {
   line-height: 1.75rem;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .text-brightRed {
   --tw-text-opacity: 1;
   color: rgb(232 75 96 / var(--tw-text-opacity));
@@ -644,6 +663,10 @@ video {
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
   }
 
   .md\:px-14 {
