@@ -16,9 +16,9 @@ module.exports = {
         brightBlue: '#8FD6E8'
 
       },
-      font-family: {
-        'rubik': ['Rubik', sans-serif],
-        'karla': ['Karla', sans-serif]
+      fontFamily: {
+        'rubik': ["'Rubik'", 'sans-serif'],
+        'karla': ["'Karla'", 'sans-serif']
       }
     },
   },
