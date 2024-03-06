@@ -18,7 +18,8 @@ module.exports = {
       },
       fontFamily: {
         'rubik': ["'Rubik'", 'sans-serif'],
-        'karla': ["'Karla'", 'sans-serif']
+        'karla': ["'Karla'", 'sans-serif'],
+        'madimiOne': ["'Madimi One'", 'sans-serif']
       }
     },
   },

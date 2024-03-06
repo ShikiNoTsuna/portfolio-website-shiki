@@ -649,9 +649,27 @@ video {
   font-family: 'Karla', sans-serif;
 }
 
+.font-rubik {
+  font-family: 'Rubik', sans-serif;
+}
+
+.font-madimiOne {
+  font-family: 'Madimi One', sans-serif;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .text-lg {
@@ -659,8 +677,21 @@ video {
   line-height: 1.75rem;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .font-semibold {
   font-weight: 600;
+}
+
+.leading-snug {
+  line-height: 1.375;
+}
+
+.text-brightRed {
+  --tw-text-opacity: 1;
+  color: rgb(232 75 96 / var(--tw-text-opacity));
 }
 
 .text-white {
