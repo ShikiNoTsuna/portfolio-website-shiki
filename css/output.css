@@ -569,10 +569,6 @@ video {
   margin-left: 3.5rem;
 }
 
-.ml-1 {
-  margin-left: 0.25rem;
-}
-
 .flex {
   display: flex;
 }
@@ -659,6 +655,11 @@ video {
 .hover\:text-brightRed:hover {
   --tw-text-opacity: 1;
   color: rgb(232 75 96 / var(--tw-text-opacity));
+}
+
+.active\:bg-brightRed:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(232 75 96 / var(--tw-bg-opacity));
 }
 
 .active\:text-brightRed:active {
