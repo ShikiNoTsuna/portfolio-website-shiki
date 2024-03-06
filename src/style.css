@@ -13,3 +13,10 @@
 html {
     overflow-x: hidden;
 }
+
+/* Menu icon */
+#menu-icon {
+    font-size: 3rem;
+    color: #ffffff;
+    display: none;
+}
