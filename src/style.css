@@ -1,5 +1,15 @@
 /* Additional styles */
 
-h1 {
-    color:blue;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+html {
+    overflow-x: hidden;
 }
