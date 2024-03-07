@@ -628,6 +628,11 @@ video {
   padding-right: 10rem;
 }
 
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -645,12 +650,24 @@ video {
   padding-top: 10rem;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
 .font-karla {
   font-family: 'Karla', sans-serif;
 }
 
 .font-madimiOne {
   font-family: 'Madimi One', sans-serif;
+}
+
+.font-rubik {
+  font-family: 'Rubik', sans-serif;
 }
 
 .text-2xl {
@@ -671,6 +688,11 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold {
