@@ -17,23 +17,46 @@
 </head>
 <body class="bg-brightBlack text-white font-karla">
 
-    <!-- header -->
-    <header class="fixed top-0 left-0 w-full px-40 py-6 bg-black flex justify-between items-center z-50 mx-auto">
-        <a href="#" class="text-2xl font-semibold cursor-default">Olivier R.</a>
+    <!-- header menu -->
+    <nav class="flex items-center justify-between flex-wrap bg-black p-6 fixed w-full z-10 top-0">
+		<div class="flex items-center flex-shrink-0 text-white mr-6">
+			<a class="text-white no-underline hover:text-white hover:no-underline" href="#">
+				<span class="text-2xl pl-2 font-semibold cursor-default">Olivier R.</span>
+			</a>
+		</div>
 
-        <i class='bx bx-menu' id="menu-icon"></i>
+		<div class="block lg:hidden">
+			<button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-white hover:border-white">
+				<svg class="fill-current h-5 w-5" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+			</button>
+		</div>
 
-        <nav class="sm:absolute md:absolute sm: top-full md:top-full sm:left-0 md:left-0 sm:w-full md:w-full sm:py-4 md:py-4 sm:px-2 md:px-2">
-            <a href="#home" class="text-lg ml-14 hover:text-brightRed transition ease-in-out duration-300">Accueil</a>
-            <a href="#presentation" class="text-lg ml-14 hover:text-brightRed transition ease-in-out duration-300">Présentation</a>
-            <a href="#projects" class="text-lg ml-14 hover:text-brightRed transition ease-in-out duration-300">Travaux</a>
-            <a href="#skills" class="text-lg ml-14 hover:text-brightRed transition ease-in-out duration-300">Compétences</a>
-            <a href="#articles" class="text-lg ml-14 hover:text-brightRed transition ease-in-out duration-300">Articles</a>
-            <a href="#articles" class="text-lg ml-14 hover:text-brightRed transition ease-in-out duration-300">Shikinotsuna</a>
-            <a href="#contact" class="text-lg ml-14 hover:text-brightRed transition ease-in-out duration-300">Contact</a>
-        </nav>
-    </header>
-    
+		<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content">
+			<ul class="list-reset lg:flex justify-end flex-1 items-center">
+				<li class="mr-3">
+					<a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="#">Accueil</a>
+				</li>
+				<li class="mr-3">
+					<a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="#">Présentation</a>
+				</li>
+				<li class="mr-3">
+					<a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="#">Travaux</a>
+				</li>
+				<li class="mr-3">
+					<a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="#">Compétences</a>
+				</li>
+                <li class="mr-3">
+					<a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="#">Articles</a>
+				</li>
+                <li class="mr-3">
+					<a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="#">Shikinotsuna</a>
+				</li>
+                <li class="mr-3">
+					<a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="#">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
     <!-- home section -->
     <section id="home" style="background-image: url('../img/pexels-belle-co-402028.jpg');" class="min-h-screen px-40 pt-40 pb-8 w-full h-full bg-no-repeat bg-cover bg-left bg-fixed">
