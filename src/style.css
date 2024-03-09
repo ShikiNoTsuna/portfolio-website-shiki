@@ -77,3 +77,11 @@ html {
 .portfolio-box:hover .portfolio-layer {
     transform: translateY(0);
 }
+
+/* Responsive Design */
+/* Menu icon */
+@media (max-width: 768px) {
+    #menu-icon {
+        display: block;
+    }
+}

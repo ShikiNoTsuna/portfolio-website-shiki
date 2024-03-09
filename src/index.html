@@ -18,7 +18,7 @@
 <body class="bg-brightBlack text-white font-karla">
 
     <!-- header -->
-    <header class="fixed top-0 left-0 w-full px-40 py-6 bg-black flex justify-between items-center z-50 mx-auto">
+    <header class="fixed top-0 left-0 w-full lg:px-40 lg:py-6 bg-black lg:flex lg:justify-between lg:items-center z-50 mx-auto">
         <a href="#" class="text-2xl font-semibold cursor-default">Olivier R.</a>
 
         <i class='bx bx-menu' id="menu-icon"></i>
@@ -44,7 +44,7 @@
     </section>
 
     <!-- presentation section -->
-    <section id="presentation" class="px-40 py-24">
+    <section id="presentation" class="lg:px-40 lg:py-24 md:p-8 sm:p-8">
         <h1 class="font-rubik text-4xl font-bold text-brightRed pb-8">Je me présente</h1>
         <p class="text-justify text-lg">Bienvenue sur mon site, je m'appelle Olivier Richard et je suis Chef de Projet Digital.</p>
         <p class="text-justify text-lg">Autodidacte assumé & passionné par le Web, je me forme régulièrement dans le but de devenir Concepteur Web Full Stack.</p>
@@ -149,15 +149,35 @@
         La constante demeure ma volonté de développer de belles expériences sur la toile.</p>
         <h2 class="font-rubik text-2xl font-bold pb-4">Ma maîtrise technique</h2>
         <p class="text-justify text-lg">Souhaitant à terme devenir Développeur Full Stack et UI/UX Designer, versatile, chaque jour est une occasion de parfaire mes connaissances.</p>
-        <h2 class="font-rubik text-2xl font-bold pb-4">Les technologies que j'utilise</h2>
-        <h2 class="font-rubik text-2xl font-bold pb-4">Quelques-unes de mes références en Webdesign</h2>
-        <h2 class="font-rubik text-2xl font-bold pb-4">Gestion de Projet</h2>
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3 class="font-rubik text-2xl font-bold pb-4">Les technologies que j'utilise</h3>
+            </div>
+            <div class="skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3 class="font-rubik text-2xl font-bold pb-4">Quelques-unes de mes références en Webdesign</h3>
+            </div>
+            <div class="skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3 class="font-rubik text-2xl font-bold pb-4">Gestion de Projet</h3>
+            </div>
+        </div>
     </section>
+
     <!-- contact section-->
+    <section id="skills" class="px-40 py-24 md:px-20 md:py-12">
+        <h1 class="font-rubik text-4xl font-bold text-brightRed pb-8">Contact</h1>
+    </section>
 
     <!-- footer -->
-    <footer class="bg-black">
-        Olivier R. Tous droits réservés
+    <footer class="bg-black px-8 py-6">
+        <div class="flex justify-between items-center">
+            <div>Olivier R.</div>
+            <div>Mentions Légales</div>
+            <div>Version 1.0</div>
+        </div>
+        <p class="text-center pt-4">Copyright &copy; 2024 Olivier R. Tous droits réservés.</p>
     </footer>
 
     <!-- js file -->
