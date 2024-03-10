@@ -21,63 +21,6 @@ html {
     display: none;
 }
 
-/* Style for portfolio layers and boxes */
-.portfolio-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    gap: 3rem;
-}
-
-.portfolio-container .portfolio-box {
-    position: relative;
-    border-radius: 1.5rem;
-    box-shadow: 0 0 1rem #282828;
-    overflow: hidden;
-    display: flex;
-}
-
-.portfolio-box img {
-    width: 100%;
-}
-
-.portfolio-box .portfolio-layer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    padding: 1rem 4rem;
-    transform: translateY(100%);
-    transition: .5s ease;
-}
-
-.portfolio-layer h4 {
-    font-size: 2rem;
-}
-
-.portfolio-layer p {
-    font-size: 1rem;
-    margin: .3rem 0 1rem;
-}
-
-.portfolio-layer a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 3rem;
-    height: 3rem;
-}
-
-.portfolio-box:hover .portfolio-layer {
-    transform: translateY(0);
-}
-
 /* Portfolio Gallery */
 .portfolio-gallery {
 	margin: 0;
@@ -101,7 +44,7 @@ html {
 	margin: 0;
 	padding: 0;
 	display: grid;
-	gap: 0.5rem;
+	gap: 1.5rem;
 	grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 	max-width: 100%;
 	width: 70rem;
@@ -145,6 +88,7 @@ figcaption {
 	transition: opacity 600ms, transform 600ms;
 }
 
+
 a:is(:hover, :focus) figure::after {
 	opacity: 1;
 }
@@ -155,6 +99,7 @@ a:is(:hover, :focus) figcaption {
 }
 
 /* Responsive Design */
+/* Portfolio Gallery */
 @media (prefers-reduced-motion: no-preference) {
 	figcaption {
 		transform: translate3d(0, 2rem, 0);
@@ -181,7 +126,7 @@ a:is(:hover, :focus) figcaption {
 		transform: scale(1.2);
 	}
 }
-/* Responsive Design */
+
 /* Menu icon */
 @media (max-width: 768px) {
     #menu-icon {
