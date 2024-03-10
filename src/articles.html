@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Portfolio Olivier Richard</title>
+    <link rel="stylesheet" href="../css/output.css" >
+    <link rel="stylesheet" href="style.css">
+    <!-- fonts Rubik & Karla -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!-- font Madimi One -->
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="bg-brightBlack text-white font-karla">
+
+    <!-- header menu -->
+    <nav class="flex items-center justify-between flex-wrap bg-black p-6 fixed w-full z-10 top-0">
+		<div class="flex items-center flex-shrink-0 text-white mr-6">
+			<a class="text-white no-underline hover:text-white hover:no-underline" href="#">
+				<span class="text-2xl pl-2 font-semibold cursor-default">Olivier R.</span>
+			</a>
+		</div>
+
+		<div class="block lg:hidden">
+			<button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-white hover:border-white">
+				<svg class="fill-current h-5 w-5" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+			</button>
+		</div>
+
+		<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden pt-6 lg:pt-0" id="nav-content">
+			<ul class="list-reset lg:flex justify-end flex-1 items-center">
+				<li class="mr-3">
+					<a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="index.html">Accueil</a>
+				</li>
+				<li class="mr-3">
+					<a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="#presentation">Présentation</a>
+				</li>
+				<li class="mr-3">
+					<a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="#projects">Travaux</a>
+				</li>
+				<li class="mr-3">
+					<a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="#skills">Compétences</a>
+				</li>
+                <li class="mr-3">
+					<a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="#">Articles</a>
+				</li>
+                <li class="mr-3">
+					<a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="#">Shikinotsuna</a>
+				</li>
+                <li class="mr-3">
+					<a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="#contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+    <!-- home section -->
+    <section id="home" style="background-image: url('../img/pexels-belle-co-402028.jpg');" class="min-h-screen px-40 pt-40 pb-8 w-full h-full bg-no-repeat bg-cover bg-left bg-fixed">
+        <div>
+            <h3 class="font-madimiOne text-4xl font-bold">Bonjour, je suis</h3>
+            <h1 class="font-madimiOne text-6xl font-bold leading-snug">Olivier RICHARD</h1>
+            <h3 class="font-madimiOne text-4xl font-bold">Et je suis <span class="text-brightRed">Chef de Projet Digital</span></h3>
+        </div>
+    </section>
+
+
+  <!-- all articles section -->
+  <section>
+    <ul>
+      <li><a href="article-trello.html" class="font-white">Trello</a></li>
+    </ul>
+  </section>
+
+
+    <!-- footer -->
+    <footer class="bg-black px-8 py-6">
+        <div class="flex justify-between items-center">
+            <div>Olivier R.</div>
+            <div>Mentions Légales</div>
+            <div>Version 1.0</div>
+        </div>
+        <p class="text-center pt-4">Copyright &copy; 2024 Olivier R. Tous droits réservés.</p>
+    </footer>
+
+    <!-- js file -->
+    <script src="../js/script.js"></script>
+</body>
+</html>
