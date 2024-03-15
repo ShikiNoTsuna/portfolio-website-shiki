@@ -17,238 +17,234 @@
 </head>
 <body class="bg-brightBlack text-white font-karla">
 
-    <!-- header menu -->
-    <nav class="flex items-center justify-between flex-wrap bg-black p-6 fixed w-full z-10 top-0">
-		<div class="flex items-center flex-shrink-0 text-white mr-6">
-			<a class="text-white no-underline hover:text-white hover:no-underline" href="#">
-				<span class="text-2xl pl-2 font-semibold cursor-default">Olivier R.</span>
-			</a>
-		</div>
+  <!-- header menu -->
+  <nav class="flex items-center justify-between flex-wrap bg-black p-6 fixed w-full z-10 top-0">
+	  <div class="flex items-center flex-shrink-0 text-white mr-6">
+		  <a class="text-white no-underline hover:text-white hover:no-underline" href="#">
+			  <span class="text-2xl pl-2 font-semibold cursor-default">Olivier R.</span>
+		  </a>
+	  </div>
 
-		<div class="block lg:hidden">
-			<button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-white hover:border-white">
-				<svg class="fill-current h-5 w-5" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-			</button>
-		</div>
+	  <div class="block lg:hidden">
+		  <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-white hover:border-white">
+			  <svg class="fill-current h-5 w-5" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+		  </button>
+	  </div>
 
-		<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden pt-6 lg:pt-0" id="nav-content">
-			<ul class="list-reset lg:flex justify-end flex-1 items-center">
-				<li class="mr-3">
-					<a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="#">Accueil</a>
-				</li>
-				<li class="mr-3">
-					<a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="#presentation">Présentation</a>
-				</li>
-				<li class="mr-3">
-					<a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="#projects">Travaux</a>
-				</li>
-				<li class="mr-3">
-					<a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="#skills">Compétences</a>
-				</li>
-                <li class="mr-3">
-					<a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="src/articles.html">Articles</a>
-				</li>
-                <li class="mr-3">
-					<a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="#contact">Contact</a>
-				</li>
-			</ul>
-		</div>
+	  <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden pt-6 lg:pt-0" id="nav-content">
+		  <ul class="list-reset lg:flex justify-end flex-1 items-center">
+			  <li class="mr-3">
+				  <a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="#">Accueil</a>
+			  </li>
+			  <li class="mr-3">
+				  <a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="#presentation">Présentation</a>
+			  </li>
+			  <li class="mr-3">
+				  <a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="#projects">Travaux</a>
+			  </li>
+			  <li class="mr-3">
+				  <a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="#skills">Compétences</a>
+			  </li>
+        <li class="mr-3">
+				  <a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="src/articles.html">Articles</a>
+			  </li>
+        <li class="mr-3">
+				  <a class="inline-block text-white hover:text-brightRed py-2 px-4 text-lg transition ease-in-out duration-300" href="#contact">Contact</a>
+			  </li>
+		  </ul>
+	  </div>
 	</nav>
 
-    <!-- home section -->
-    <section id="home" style="background-image: url('img/pexels-belle-co-402028.jpg');" class="sm:min-h-32 md:min-h-64 lg:min-h-96 xl:min-h-screen lg:px-40 pt-40 pb-8 w-full h-full bg-no-repeat bg-cover bg-left bg-fixed">
-        <div class="px-12">
-            <h3 class="font-madimiOne text-3xl md:text-4xl lg:text-4xl font-bold">Bonjour, je suis</h3>
-            <h1 class="font-madimiOne text-4xl md:text-6xl lg:text-6xl font-bold leading-snug">Olivier RICHARD</h1>
-            <h3 class="font-madimiOne text-3xl md:text-4xl lg:text-4xl font-bold">Et je suis <span class="text-brightRed">Chef de Projet Digital</span></h3>
-        </div>
-    </section>
-
-    <!-- presentation section -->
-    <section id="presentation" class="lg:px-40 lg:py-24">
-      <div class="gap-16 items-center py-20 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:pb-16 lg:pt-32 lg:px-6">
-          <div class="font-light text-white sm:text-lg">
-              <h2 class="mb-4 text-4xl font-bold text-brightRed font-rubik text-center md:text-left lg:text-left">Je me présente</h2>
-              <p class="mb-4 text-lg font-normal">Bienvenue sur mon site, je m'appelle Olivier Richard et je suis Chef de Projet Digital.
-                  Autodidacte assumé & passionné par le Web, je me forme régulièrement dans le but de devenir Concepteur Web Full Stack. 
-                  Ainsi, à terme j'aimerais être capable de pouvoir créer un site web dynamique de A à Z en alliant des compétences en développement, webdesign et graphisme.  
-                  Je rêve de créer des sites web qui feront vivre une expérience unique à leurs visiteurs.</p>
-          </div>
-          <div class="">
-            <img class="w-full rounded-lg" src="img/pexels-rodrigo-santos-3888151.jpg" alt="image-computer-working">
-          </div>
+  <!-- home section -->
+  <section id="home" style="background-image: url('img/pexels-belle-co-402028.jpg');" class="sm:min-h-32 md:min-h-64 lg:min-h-96 xl:min-h-screen lg:px-40 pt-40 pb-8 w-full h-full bg-no-repeat bg-cover bg-left bg-fixed">
+      <div class="px-12">
+        <h3 class="font-madimiOne text-3xl md:text-4xl lg:text-4xl font-bold">Bonjour, je suis</h3>
+        <h1 class="font-madimiOne text-4xl md:text-6xl lg:text-6xl font-bold leading-snug">Olivier RICHARD</h1>
+        <h3 class="font-madimiOne text-3xl md:text-4xl lg:text-4xl font-bold">Et je suis <span class="text-brightRed">Chef de Projet Digital</span></h3>
       </div>
   </section>
 
-    <!-- projects section -->
-<section id="projects" class="lg:py-12 sm:py-24 md:py-24">
-<div class="xl:h-screen">
-  <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
-    <div>
-      <div>
-          <h2 class="font-rubik text-4xl font-bold text-brightRed text-center mb-6 lg:mt-24">Différents travaux que j'ai réalisés</h2>
-      </div>
-  </div>
-
-      <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
-          <a href="https://bar-auditorium-de-poitiers.fr/" target="_blank"
-              class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-              <img src="img/site-bar-audi.png" loading="lazy" alt="site du bar auditorium de poitiers" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-              <div
-                  class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
-              </div>
-
-              <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-2xl font-semibold">Site du bar auditorium de Poitiers</span>
-          </a>
-          <a href="https://www.orangevelodrome.com/" target="_blank"
-              class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
-              <img src="img/site-ov-capture.png" loading="lazy" alt="site du stade orange velodrome" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-              <div
-                  class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
-              </div>
-
-              <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-2xl font-semibold">Site du stade Orange Vélodrome</span>
-          </a>
-          <a href="https://cours-legendre.fr/" target="_blank"
-              class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
-              <img src="img/site-cl-capture.png" loading="lazy" alt="site des cours legendre" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-              <div
-                  class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
-              </div>
-
-              <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-2xl font-semibold">Site des Cours Legendre</span>
-          </a>
-          <a href="https://seedbox-hq.com/fr/" target="_blank"
-              class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-              <img src="img/site-seedbox-capture.png" loading="lazy" alt="site de seedbox-hq" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-              <div
-                  class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
-              </div>
-
-              <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-2xl font-semibold">Site de Seedbox-hq</span>
-          </a>
-      </div>
-  </div>
-</div>
-</section>
-
-
-    <!-- skills section -->
-<section id="skills" class="text-gray-200 lg:px-40 lg:py-12">
-<div class="mx-auto max-w-6xl px-5 py-24">
-  <div class="text-center mb-12">
-    <h2 class="mb-4 text-4xl font-bold font-rubik text-brightRed">Mes Compétences</h2>
-    <h3 class="font-rubik text-2xl font-bold pb-2">Mon style, Votre style</h3>
-    <p class="leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-lg font-normal">Au fil de mes expérimentations, je définis un style personnel. Au fil de mes expérimentations, je m'adapte aux besoins de chacun. 
-        La constante demeure ma volonté de développer de belles expériences sur la toile.</p>
-    <div class="flex mt-6 justify-center">
-        <div class="w-16 h-1 rounded-full bg-brightRed inline-flex"></div>
+  <!-- presentation section -->
+  <section id="presentation" class="lg:px-40 lg:py-24">
+    <div class="gap-16 items-center py-20 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:pb-16 lg:pt-32 lg:px-6">
+        <div class="font-light text-white sm:text-lg">
+          <h2 class="mb-4 text-4xl font-bold text-brightRed font-rubik text-center md:text-left lg:text-left">Je me présente</h2>
+            <p class="mb-4 text-lg font-normal">
+              Bienvenue sur mon site, je m'appelle Olivier Richard et je suis Chef de Projet Digital.
+              Autodidacte assumé & passionné par le Web, je me forme régulièrement dans le but de devenir Concepteur Web Full Stack. 
+              Ainsi, à terme j'aimerais être capable de pouvoir créer un site web dynamique de A à Z en alliant des compétences en développement, webdesign et graphisme.  
+              Je rêve de créer des sites web qui feront vivre une expérience unique à leurs visiteurs.
+            </p>
+        </div>
+        <div class="">
+          <img class="w-full rounded-lg" src="img/pexels-rodrigo-santos-3888151.jpg" alt="image-computer-working">
+        </div>
     </div>
-  </div>
-  <ul class="mt-16 grid grid-cols-1 gap-6 text-center text-brightBlue xl:grid-cols-3">
-    <li class="rounded-xl bg-white px-6 py-8 shadow-sm">
-      <i class='bx bx-devices text-4xl mx-auto'></i>
-      <h3 class="text-xl title-font font-bold mb-3 text-brightRed">Webdesign</h3>
-      <div class="flex items-center justify-between overflow-hidden">
-        <img src="img/logo-photoshop.png" alt="logo photoshop" class="w-12 h-12">
-        <img src="img/Adobe-Illustrator-Icon.png" alt="logo illustrator" class="w-12 h-12">
-        <img src="img/img-logo-indesign.png" alt="logo indesign" class="w-12 h-12">
-        <img src="img/logo-adobexd.png" alt="logo adobexd" class="w-12 h-12">
-        <img src="img/logo-canva.png" alt="logo canva" class="w-12 h-12">
-      </div>
+  </section>
 
-    </li>
-    <li class="rounded-xl bg-white px-6 py-8 shadow-sm">
-      <i class='bx bx-code-alt text-4xl mx-auto'></i>
-      <h3 class="text-xl title-font font-bold mb-3 text-brightRed">Intégration web</h3>
-      <div class="flex items-center justify-between">
-        <img src="img/logo-html5.png" alt="logo html5" class="w-12 h-12">
-        <img src="img/img-logo-css3.png" alt="logo css3" class="w-12 h-12">
-        <img src="img/img-logo-js.png" alt="logo javascript" class="w-12 h-12">
-        <img src="img/img-logo-tailwind.png" alt="logo tailwindcss" class="w-12 h-12">
-        <img src="img/logo-wp.png" alt="logo wordpress" class="w-12 h-12">
-      </div>
+  <!-- projects section -->
+ <section id="projects" class="lg:py-12 sm:py-24 md:py-24">
+    <div class="xl:h-screen">
+      <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+        <div>
+        <div>
+        <h2 class="font-rubik text-4xl font-bold text-brightRed text-center mb-6 lg:mt-24">Différents travaux que j'ai réalisés</h2>
+        </div>
+        </div>
 
-    </li>
-    <li class="rounded-xl bg-white px-6 py-8 shadow-sm">
-      <i class='bx bx-spreadsheet text-4xl mx-auto'></i>
-      <h3 class="text-xl title-font font-bold mb-3 text-brightRed">Gestion de projet</h3>
-      <div class="flex items-center justify-between">
-        <img src="img/logo-gdrive.png" alt="logo google drive" class="w-12 h-12">
-        <img src="img/logo-excel.png" alt="logo excel" class="w-12 h-12">
-        <img src="img/logo-ppt.png" alt="logo ppt" class="w-12 h-12">
-        <img src="img/logo-jira.png" alt="logo jira" class="w-12 h-12">
-        <img src="img/logo-trello.png" alt="logo trello" class="w-12 h-12">
-      </div>
-  </ul>
-</div>
-</section>
+        <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
 
-    <!-- contact section-->
-        <section id="contact" class="relative lg:px-40 lg:py-12">
-          <div class="container px-5 py-24 mx-auto">
-            <div class="flex flex-col text-center w-full mb-12">
-              <h2 class="text-4xl font-bold font-rubik text-brightRed">Me Contacter</h2>
-              <div class="p-2 w-full border-t border-gray-200 text-center">
-                <h3 class="text-white text-lg font-semibold">Mon email</h3>
-                <a class="text-brightBlue text-lg" href="mailto:olivier-webdev@protonmail.com">olivier-webdev@protonmail.com</a>
-                <div class="text-white text-xl mt-8 hidden">OU</div>
-              </div>
-            </div>
-            <div class="lg:w-1/2 md:w-2/3 mx-auto  hidden">
-              <div class="flex flex-wrap -m-2">
-                <div class="p-2 w-1/2">
-                  <div class="relative">
-                    <label for="name" class="leading-7 text-lg text-white">Nom</label>
-                    <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-                  </div>
-                </div>
-                <div class="p-2 w-1/2">
-                  <div class="relative">
-                    <label for="email" class="leading-7 text-lg text-white">Email</label>
-                    <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-                  </div>
-                </div>
-                <div class="p-2 w-full">
-                  <div class="relative">
-                    <label for="message" class="leading-7 text-lg text-white">Message</label>
-                    <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
-                  </div>
-                </div>
-                <div class="p-2 w-full">
-                  <button class="flex mx-auto text-white bg-brightRed border-0 py-2 px-8 focus:outline-none hover:bg-brightBlue rounded text-lg">Envoyer</button>
-                </div>
-              </div>
+        <a href="https://bar-auditorium-de-poitiers.fr/" target="_blank" class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+          <img src="img/site-bar-audi.png" loading="lazy" alt="site du bar auditorium de poitiers" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+          </div>
+          <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-2xl font-semibold">Site du bar auditorium de Poitiers</span>
+        </a>
+
+        <a href="https://www.orangevelodrome.com/" target="_blank" class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+          <img src="img/site-ov-capture.png" loading="lazy" alt="site du stade orange velodrome" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+          </div>
+          <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-2xl font-semibold">Site du stade Orange Vélodrome</span>
+        </a>
+
+        <a href="https://cours-legendre.fr/" target="_blank" class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+          <img src="img/site-cl-capture.png" loading="lazy" alt="site des cours legendre" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+          </div>
+          <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-2xl font-semibold">Site des Cours Legendre</span>
+        </a>
+
+        <a href="https://seedbox-hq.com/fr/" target="_blank" class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+          <img src="img/site-seedbox-capture.png" loading="lazy" alt="site de seedbox-hq" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+          </div>
+          <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-2xl font-semibold">Site de Seedbox-hq</span>
+        </a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- skills section -->
+  <section id="skills" class="text-gray-200 lg:px-40 lg:py-12">
+    <div class="mx-auto max-w-6xl px-5 py-24">
+      <div class="text-center mb-12">
+        <h2 class="mb-4 text-4xl font-bold font-rubik text-brightRed">Mes Compétences</h2>
+        <h3 class="font-rubik text-2xl font-bold pb-2">Mon style, Votre style</h3>
+        <p class="leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-lg font-normal">
+          Au fil de mes expérimentations, je définis un style personnel. Au fil de mes expérimentations, je m'adapte aux besoins de chacun. 
+          La constante demeure ma volonté de développer de belles expériences sur la toile.
+        </p>
+        <div class="flex mt-6 justify-center">
+            <div class="w-16 h-1 rounded-full bg-brightRed inline-flex"></div>
+        </div>
+      </div>
+      <ul class="mt-16 grid grid-cols-1 gap-6 text-center text-brightBlue xl:grid-cols-3">
+
+        <li class="rounded-xl bg-white px-6 py-8 shadow-sm">
+          <i class='bx bx-devices text-4xl mx-auto'></i>
+          <h3 class="text-xl title-font font-bold mb-3 text-brightRed">Webdesign</h3>
+          <div class="flex items-center justify-between overflow-hidden">
+            <img src="img/logo-photoshop.png" alt="logo photoshop" class="w-12 h-12">
+            <img src="img/Adobe-Illustrator-Icon.png" alt="logo illustrator" class="w-12 h-12">
+            <img src="img/img-logo-indesign.png" alt="logo indesign" class="w-12 h-12">
+            <img src="img/logo-adobexd.png" alt="logo adobexd" class="w-12 h-12">
+            <img src="img/logo-canva.png" alt="logo canva" class="w-12 h-12">
+          </div>
+        </li>
+
+        <li class="rounded-xl bg-white px-6 py-8 shadow-sm">
+          <i class='bx bx-code-alt text-4xl mx-auto'></i>
+          <h3 class="text-xl title-font font-bold mb-3 text-brightRed">Intégration web</h3>
+          <div class="flex items-center justify-between">
+            <img src="img/logo-html5.png" alt="logo html5" class="w-12 h-12">
+            <img src="img/img-logo-css3.png" alt="logo css3" class="w-12 h-12">
+            <img src="img/img-logo-js.png" alt="logo javascript" class="w-12 h-12">
+            <img src="img/img-logo-tailwind.png" alt="logo tailwindcss" class="w-12 h-12">
+            <img src="img/logo-wp.png" alt="logo wordpress" class="w-12 h-12">
+          </div>
+        </li>
+
+        <li class="rounded-xl bg-white px-6 py-8 shadow-sm">
+          <i class='bx bx-spreadsheet text-4xl mx-auto'></i>
+          <h3 class="text-xl title-font font-bold mb-3 text-brightRed">Gestion de projet</h3>
+          <div class="flex items-center justify-between">
+            <img src="img/logo-gdrive.png" alt="logo google drive" class="w-12 h-12">
+            <img src="img/logo-excel.png" alt="logo excel" class="w-12 h-12">
+            <img src="img/logo-ppt.png" alt="logo ppt" class="w-12 h-12">
+            <img src="img/logo-jira.png" alt="logo jira" class="w-12 h-12">
+            <img src="img/logo-trello.png" alt="logo trello" class="w-12 h-12">
+          </div>
+
+      </ul>
+    </div>
+  </section>
+
+  <!-- contact section-->
+  <section id="contact" class="relative lg:px-40 lg:py-12">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-12">
+        <h2 class="text-4xl font-bold font-rubik text-brightRed">Me Contacter</h2>
+        <div class="p-2 w-full border-t border-gray-200 text-center">
+          <h3 class="text-white text-lg font-semibold">Mon email</h3>
+          <a class="text-brightBlue text-lg" href="mailto:olivier-webdev@protonmail.com">olivier-webdev@protonmail.com</a>
+          <div class="text-white text-xl mt-8 hidden">OU</div>
+        </div>
+      </div>
+      <div class="lg:w-1/2 md:w-2/3 mx-auto hidden">
+        <div class="flex flex-wrap -m-2">
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="name" class="leading-7 text-lg text-white">Nom</label>
+              <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
             </div>
           </div>
-        </section>
-
-    <!-- social medias -->
-      <section class="pb-8">
-        <span class="[&>svg]:h-5 [&>svg]:w-5">
-          <a href="https://github.com/ShikiNoTsuna" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 496 512" class="w-16 h-16 mx-auto">
-              <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
-            </svg>
-          </a>
-        </span>
-      </section>
-
-    <!-- footer -->
-    <footer class="bg-black px-8 py-6">
-        <div class="flex justify-between items-center">
-            <div>Olivier R.</div>
-            <div><a href="src/mentions-legales.html" class="hover:text-brightRed">Mentions Légales</a></div>
-            <div>Version 1.0</div>
+          <div class="p-2 w-1/2">
+             <div class="relative">
+              <label for="email" class="leading-7 text-lg text-white">Email</label>
+              <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <div class="relative">
+              <label for="message" class="leading-7 text-lg text-white">Message</label>
+              <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <button class="flex mx-auto text-white bg-brightRed border-0 py-2 px-8 focus:outline-none hover:bg-brightBlue rounded text-lg">Envoyer</button>
+          </div>
         </div>
-        <p class="text-center pt-4">Copyright &copy; 2024 Olivier R. Tous droits réservés.</p>
-    </footer>
+      </div>
+    </div>
+  </section>
 
-    <!-- js file -->
-    <script src="js/script.js"></script>
+  <!-- social medias -->
+  <section class="pb-8">
+    <span class="[&>svg]:h-5 [&>svg]:w-5">
+      <a href="https://github.com/ShikiNoTsuna" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 496 512" class="w-16 h-16 mx-auto">
+          <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+        </svg>
+      </a>
+    </span>
+  </section>
+
+  <!-- footer -->
+  <footer class="bg-black px-8 py-6">
+      <div class="flex justify-between items-center">
+          <div>Olivier R.</div>
+          <div><a href="src/mentions-legales.html" class="hover:text-brightRed">Mentions Légales</a></div>
+          <div>Version 1.0</div>
+      </div>
+      <p class="text-center pt-4">Copyright &copy; 2024 Olivier R. Tous droits réservés.</p>
+  </footer>
+
+  <!-- js file -->
+  <script src="js/script.js"></script>
+  
 </body>
 </html>
