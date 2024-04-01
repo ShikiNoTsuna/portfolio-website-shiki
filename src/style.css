@@ -99,33 +99,6 @@ a:is(:hover, :focus) figcaption {
 }
 
 /* Responsive Design */
-/* Portfolio Gallery */
-@media (prefers-reduced-motion: no-preference) {
-	figcaption {
-		transform: translate3d(0, 2rem, 0);
-	}
-	
-	figure::after {
-		border-radius: 50%;
-		opacity: 1;
-		transform: scale(0);
-		transition: transform 900ms;
-	}
-	
-	a:is(:hover, :focus) figure::after {
-		transform: scale(2.5);
-	}
-
-	a:is(:hover, :focus) figcaption {
-		opacity: 1;
-		transform: translate3d(0, 0, 0);
-		transition: opacity 600ms 400ms, transform 600ms 400ms;
-	}
-
-	a:is(:hover, :focus) img {
-		transform: scale(1.2);
-	}
-}
 
 /* Menu icon */
 @media (max-width: 768px) {
